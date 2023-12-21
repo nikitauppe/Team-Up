@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="css/login-page.css">
+	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+<div class="main">
+	<div class="logo">
+		<img src="images/logo.jpg" align="center">
+	</div>
+		<div class="content">
+			<form action="php/login-page.php" method="post">
+				<Label class="label">User ID :</Label><input type="text" class="text" placeholder="User ID" name="userid" required><br><br><br>
+				<Label class="label">Password :</Label><input type="password" class="text" placeholder="Password" name="password" required><br><br>
+				<input type="submit" id="btn" value="Log-In" onclick="Clicked()">
+			</form>
+		</div>
+	<div class="title">
+		<h1>Team-Up</h1><br >
+		<h3>Log-In</h3>
+	</div>
+	<div id="msg">
+		<h4>Don't have account, <a href="Sign-up.html">Sign-Up</a>here</h4> 
+	</div>
+</div>
+</body>
+</html>

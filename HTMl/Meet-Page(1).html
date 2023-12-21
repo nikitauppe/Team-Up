@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team Up - Meet</title>
+	<link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+	
+	<style>
+		.main
+		{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width:600px;
+		height:700px;
+		background-color:rgb(100,200,250);
+		transform: translate(-50%,-50%);
+		border-radius: 10px;
+		}
+		
+		.main logo
+		{
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		}
+
+		.logo img
+		{
+		position: absolute;
+		width:100px;
+		height:auto;
+		top: 10%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		border-radius: 10px;
+		}
+
+		.container
+		{
+			position: absolute;
+			width:500px;
+			height:500px;
+			top: 55%;
+			left: 50%;
+			background : #fff;
+			transform: translate(-50%,-50%);
+			border-radius: 10px;
+			border: 1px solid #000;
+		}		
+
+		#roomNumber
+		{
+			position: absolute;
+			border: 1px solid #000;
+			padding: 2px 20px;
+			height : 30px;
+			margin-top: 40%;
+			margin-left: 32%;
+		}
+
+		#btn
+		{
+			position: absolute;
+			top: 52%;
+			left: 39%;
+			border: 1px solid #000;
+			padding: 10px 30px;
+			color: #000;
+			transition : 0.6s ease;
+			border-radius: 10px;
+		}
+	
+		#btn1
+		{
+			position: absolute;
+			top: 68%;
+			left: 38%;
+			border: 1px solid #000;
+			padding: 10px 30px;
+			color: #000;
+			transition :  0.6s ease;
+			border-radius: 10px;
+		}
+
+		#btn:hover
+		{
+			color : white;
+			background : blue;
+		}
+
+		#btn1:hover
+		{
+			color : white;
+			background : blue;
+		}
+
+		.container .title
+		{
+	
+			position: absolute;
+			top: 13%;
+			left: 55%;
+			width: 350px;
+			background : #fff;
+			transform: translate(-50%,-50%);
+			border-radius: 10px;
+		}
+
+		.title h2
+		{
+			position: absolute;
+			top: 70%;
+			left: 30%;
+			color: #000;
+			font-size:30px;
+		}
+
+	</style>
+
+</head>
+<body>
+<div class="main">
+	<div class="logo">
+		<img src="images/logo.jpg" align="center">
+	</div>
+
+	<div class="container">	
+		<div class="title">
+			<h1>Conferencing App</h1>
+			<h2>MEET</h2>
+		</div>
+	
+		<input type="text" placeholder="Enter Room ID" id="roomNumber"><br>
+		<Button id="btn" onclick="joinRoom()">Join Room</Button>
+		<Button id="btn1" onclick="createRoom()">Create Room</Button>
+	</div>
+</div>
+<script>
+		function joinRoom()
+		{
+			var textField = document.getElementById("roomNumber").value; 
+			if(textField != "")
+			{
+				var link = document.getElementById('roomNumber').value;
+				window.location.href= link;
+			}
+			else
+			{
+				alert("Please, Enter Room number");
+			}
+		}
+		
+		function createRoom()
+		{
+			window.location.href= "http://localhost:4000";
+		}
+	</script>
+
+</body>
+</html>
