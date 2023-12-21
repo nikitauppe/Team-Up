@@ -1,0 +1,144 @@
+*
+{
+	margin : 0;
+	padding : 0;
+	font_family: Lato;
+}
+
+.main
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 900px;
+	height:700px;
+	background-color:rgb(100,200,250);
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+}
+
+
+.main title logo
+{
+	position: absolute;
+	top: 50px;
+	left: 50%;
+}
+
+
+
+.logo img
+{
+	position: absolute;
+	width: 150px;
+	height:auto;
+	top: 13%;
+	left: 10%;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+}
+
+#text
+{
+	margin-top: 10px;
+	
+}
+
+
+.main .btn
+{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	padding: 10px 30px;
+	width: 70%;
+	height: 60%;
+	color: #000;
+	background-color : white;
+	border-radius: 10px;
+}
+
+.btn .meet 
+{
+	position: absolute;
+	top: 30%;
+	left: 7%;
+	padding: 10px 30px;
+	width: 30%;
+	height: 50%;
+	color: #000;
+	background-color : #0f1;
+	border-radius: 10px;
+}
+
+.meet .bi-camera-video
+{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	border: 1px solid #000;
+	width : 100px;
+	height : 60px;
+	padding: 10px 30px;
+	color: #000;
+	transition : transition: 0.6s ease;
+	border-radius: 10px;
+}
+
+
+.bi-camera-video:hover
+{
+	color : white;
+	background : blue;
+}
+
+.btn .classroom
+{
+	position: absolute;
+	top: 30%;
+	left:55%;
+	padding: 10px 30px;
+	width: 30%;
+	height: 50%;
+	color: #000;
+	background-color : #0f8;
+	border-radius: 10px;
+}
+
+.btn .classroom .croom
+{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	border: 1px solid #000;
+	width : 100px;
+	height : 60px;
+	padding: 10px 30px;
+	color: #000;
+	transition : transition: 0.8s ease;
+	border-radius: 10px;
+}
+
+.croom:hover
+{
+	color : fff;
+	background : blue;
+}
+
+.classroom .name
+{
+	position: absolute;
+	padding: 2px 15px;
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 20px;
+}
+
+.meet .name
+{
+	position: absolute;
+	padding: 2px 15px;
+	margin-top: 10%;
+	margin-left: 23%;
+	font-size: 20px;
+}

@@ -1,0 +1,107 @@
+*
+{
+	margin : 0;
+	padding : 0;
+	font_family: Lato;
+}
+
+.main
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width:600px;
+	height:700px;
+	background-color:rgb(100,200,250);
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+}
+
+.main logo
+{
+	position: absolute;
+	top: 50px;
+	left: 50%;
+}
+
+.logo img
+{
+	position: absolute;
+	width:100px;
+	height:auto;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+}
+
+.content
+{
+	position: absolute;
+	width:500px;
+	height:500px;
+	top: 55%;
+	left: 50%;
+	background : #fff;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+}
+
+
+.label
+{
+	position: absolute;
+	padding: 2px 15px;
+	margin-top: 27%;
+	margin-left: 10%;
+	font-size: 18px;
+}
+
+
+.text
+{
+	position: absolute;
+	border: 1px solid #000;
+	padding: 2px 25px;
+	height : 30px;
+	margin-top: 25%;
+	margin-left: 42%;
+}
+
+
+.title
+{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	background : #fff;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+}
+
+.title h3
+{
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	color: #000;
+	font-size:20px;
+}
+
+#btn
+{
+	position: absolute;
+	top: 85%;
+	left: 43%;
+	border: 1px solid #000;
+	padding: 10px 30px;
+	color: #000;
+	transition : transition: 0.6s ease;
+	border-radius: 10px;
+}
+
+#btn:hover
+{
+	color : white;
+	background : blue;
+}
